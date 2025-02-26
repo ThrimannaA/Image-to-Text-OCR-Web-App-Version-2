@@ -4,6 +4,6 @@ Pillow
 opencv-python-headless
 numpy
 pydrive2
-# System dependencies
-apt>=1.0
+# Upgrade pip to avoid any dependency-related issues
+pip>=25.0.1
 
