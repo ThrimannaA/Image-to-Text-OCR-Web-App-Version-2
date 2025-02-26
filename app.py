@@ -87,7 +87,7 @@ def upload_to_drive(text, ref_number):
 
 
 # Streamlit UI
-st.title("📄 OCR Text Extraction Web App")
+st.title("OCR Text Extraction Web App")
 
 uploaded_file = st.file_uploader("Upload an Image (PNG, JPG, JPEG)", type=["png", "jpg", "jpeg"])
 
