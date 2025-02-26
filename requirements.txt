@@ -1,0 +1,10 @@
+Flask
+streamlit
+pytesseract
+Pillow
+opencv-python
+numpy
+easyocr
+pydrive
+requests
+gunicorn
