@@ -92,7 +92,7 @@ st.title("OCR Text Extraction Web App")
 uploaded_file = st.file_uploader("Upload an Image (PNG, JPG, JPEG)", type=["png", "jpg", "jpeg"])
 
 if uploaded_file:
-    st.image(uploaded_file, caption="Uploaded Image", use_container_width=True)
+    st.image(uploaded_file, caption="Uploaded Image")
 
     # OCR Method Selection
     ocr_method = st.selectbox("Select OCR Method", ["Tesseract"])
