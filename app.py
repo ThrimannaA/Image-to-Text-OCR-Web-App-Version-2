@@ -8,6 +8,9 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import os
 
+# Set the Tesseract binary path (for Streamlit Cloud)
+pytesseract.pytesseract.tesseract_cmd = "/app/.apt/usr/bin/tesseract"
+
 # Initialize Google Drive Authentication
 gauth = GoogleAuth()
 gauth.LoadCredentialsFile("mycreds.txt")  # Load saved credentials if available
