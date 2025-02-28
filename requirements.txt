@@ -1,8 +1,8 @@
-streamlit==1.30.0
-tesseract
+streamlit==1.30.0 
 pytesseract
 Pillow
 opencv-python-headless
 numpy
-pydrive
+pydrive2
+
 
